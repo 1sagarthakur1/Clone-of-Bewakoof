@@ -18,6 +18,24 @@
         subImgFour:
           "https://images.bewakoof.com/t540/outdoor-adventure-half-sleeve-t-shirt-483047-1648528739-3.jpg",
       },
+
+      {
+        mainImg:
+          "https://images.bewakoof.com/t640/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        name: `Men's Blue Busy Doing Nothing T-shirt-Front Bewakoof`,
+        price: "399",
+        strikeOffPrice: "1099",
+        stock: "FEW LEFT",
+        offer: `379 For TriBe Members`,
+        subImgOne:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        subImgTwo:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747838-2.jpg",
+        subImgThree:
+          "https://media.bewakoof.com/videos/287587/thumbnail/busy-doing-nothing-half-sleeve-t-shirt-287587-1642511053-video-1-00001.png",
+        subImgFour:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747843-3.jpg",
+      },
       //2
       {
         mainImg:
@@ -37,6 +55,24 @@
           "https://images.bewakoof.com/t540/outdoor-adventure-half-sleeve-t-shirt-483040-1648528761-3.jpg",
       },
       //3
+      {
+        mainImg:
+          "https://images.bewakoof.com/t540/nasa-meatball-logo-480033-1647319218-1.jpg",
+        name: `NASA Meatball Logo`,
+        price: "399",
+        strikeOffPrice: "999",
+        stock: "",
+        offer: `369 For TriBe Members`,
+        subImgOne:
+          "https://images.bewakoof.com/t540/nasa-meatball-logo-480033-1647319218-1.jpg",
+        subImgTwo:
+          "https://images.bewakoof.com/t540/nasa-meatball-logo-480033-1647319221-2.jpg",
+        subImgThree:
+          "https://images.bewakoof.com/t540/nasa-meatball-logo-480033-1647319229-4.jpg",
+        subImgFour:
+          "https://images.bewakoof.com/t540/nasa-meatball-logo-480033-1647319232-5.jpg",
+      },
+
       {
         mainImg:
           "https://images.bewakoof.com/t540/jet-black-half-sleeve-t-shirt-106-1639137606-1.jpg",
@@ -75,6 +111,24 @@
       //5
       {
         mainImg:
+          "https://images.bewakoof.com/t640/honour-glory-oversized-fit-t-shirt-537184-1661084663-1.jpg",
+        name: `Men's White Honour & Glory Graphic Printed Oversized T-shirt-Front Bewakoof"`,
+        price: "449",
+        strikeOffPrice: "1299",
+        stock: "FEW LEFT",
+        offer: `419 For TriBe Members`,
+        subImgOne:
+          "https://images.bewakoof.com/t640/honour-glory-oversized-fit-t-shirt-537184-1661084663-1.jpg",
+        subImgTwo:
+          "https://images.bewakoof.com/t1080/honour-glory-oversized-fit-t-shirt-537184-1661084668-2.jpg",
+        subImgThree:
+          "https://images.bewakoof.com/t1080/honour-glory-oversized-fit-t-shirt-537184-1661084673-3.jpg",
+        subImgFour:
+          "https://images.bewakoof.com/t1080/honour-glory-oversized-fit-t-shirt-537184-1661084678-4.jpg",
+      },
+
+      {
+        mainImg:
           "https://images.bewakoof.com/t540/motd-panda-half-sleeve-t-shirt-479762-1646211112-1.jpg",
         name: `MOTD Panda T-shirt`,
         price: "299",
@@ -109,6 +163,24 @@
           "https://images.bewakoof.com/t540/gamer-respawn-half-sleeve-t-shirt-483046-1648447151-5.jpg",
       },
       //7
+      {
+        mainImg:
+          "https://images.bewakoof.com/t640/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        name: `Men's Blue Busy Doing Nothing T-shirt-Front Bewakoof`,
+        price: "399",
+        strikeOffPrice: "1099",
+        stock: "FEW LEFT",
+        offer: `379 For TriBe Members`,
+        subImgOne:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        subImgTwo:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747838-2.jpg",
+        subImgThree:
+          "https://media.bewakoof.com/videos/287587/thumbnail/busy-doing-nothing-half-sleeve-t-shirt-287587-1642511053-video-1-00001.png",
+        subImgFour:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747843-3.jpg",
+      },
+
       {
         mainImg:
           "https://images.bewakoof.com/t540/hang-loose-relax-half-sleeve-t-shirt-387407-1640087741-1.jpg",
@@ -181,6 +253,25 @@
         subImgFour:
           "https://images.bewakoof.com/t540/jet-black-full-sleeve-t-shirt-men-s-plain-full-sleeve-t-shirts-1094-1630325401-4.jpg",
       },
+
+      {
+        mainImg:
+          "https://images.bewakoof.com/t640/honour-glory-oversized-fit-t-shirt-537184-1661084663-1.jpg",
+        name: `Men's White Honour & Glory Graphic Printed Oversized T-shirt-Front Bewakoof"`,
+        price: "449",
+        strikeOffPrice: "1299",
+        stock: "FEW LEFT",
+        offer: `419 For TriBe Members`,
+        subImgOne:
+          "https://images.bewakoof.com/t640/honour-glory-oversized-fit-t-shirt-537184-1661084663-1.jpg",
+        subImgTwo:
+          "https://images.bewakoof.com/t1080/honour-glory-oversized-fit-t-shirt-537184-1661084668-2.jpg",
+        subImgThree:
+          "https://images.bewakoof.com/t1080/honour-glory-oversized-fit-t-shirt-537184-1661084673-3.jpg",
+        subImgFour:
+          "https://images.bewakoof.com/t1080/honour-glory-oversized-fit-t-shirt-537184-1661084678-4.jpg",
+      },
+
       //11
       {
         mainImg:
@@ -219,6 +310,24 @@
       },
       //repeat1
       //1
+      {
+        mainImg:
+          "https://images.bewakoof.com/t640/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        name: `Men's Blue Busy Doing Nothing T-shirt-Front Bewakoof`,
+        price: "399",
+        strikeOffPrice: "1099",
+        stock: "FEW LEFT",
+        offer: `379 For TriBe Members`,
+        subImgOne:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        subImgTwo:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747838-2.jpg",
+        subImgThree:
+          "https://media.bewakoof.com/videos/287587/thumbnail/busy-doing-nothing-half-sleeve-t-shirt-287587-1642511053-video-1-00001.png",
+        subImgFour:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747843-3.jpg",
+      },
+
       {
         mainImg:
           "https://images.bewakoof.com/t320/outdoor-adventure-half-sleeve-t-shirt-483047-1648528732-1.jpg",
@@ -291,6 +400,25 @@
           "https://images.bewakoof.com/t540/marvel-s-moon-knight-half-sleeve-t-shirt-483814-1648618794-6.jpg",
       },
       //5
+
+      {
+        mainImg:
+          "https://images.bewakoof.com/t640/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        name: `Men's Blue Busy Doing Nothing T-shirt-Front Bewakoof`,
+        price: "399",
+        strikeOffPrice: "1099",
+        stock: "FEW LEFT",
+        offer: `379 For TriBe Members`,
+        subImgOne:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747833-1.jpg",
+        subImgTwo:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747838-2.jpg",
+        subImgThree:
+          "https://media.bewakoof.com/videos/287587/thumbnail/busy-doing-nothing-half-sleeve-t-shirt-287587-1642511053-video-1-00001.png",
+        subImgFour:
+          "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747843-3.jpg",
+      },
+
       {
         mainImg:
           "https://images.bewakoof.com/t540/motd-panda-half-sleeve-t-shirt-479762-1646211112-1.jpg",
@@ -472,79 +600,6 @@
           "https://images.bewakoof.com/t1080/men-s-blue-busy-doing-nothing-t-shirt-287587-1655747843-3.jpg",
       },
 
-      {
-        mainImg:
-          "#",
-        name: ``,
-        price: "",
-        strikeOffPrice: "",
-        stock: "FEW LEFT",
-        offer: ` For TriBe Members`,
-        subImgOne:
-          "",
-        subImgTwo:
-          "",
-        subImgThree:
-          "",
-        subImgFour:
-          "",
-      },
-
-      {
-        mainImg:
-          "#",
-        name: ``,
-        price: "",
-        strikeOffPrice: "",
-        stock: "FEW LEFT",
-        offer: ` For TriBe Members`,
-        subImgOne:
-          "",
-        subImgTwo:
-          "",
-        subImgThree:
-          "",
-        subImgFour:
-          "",
-      },
-
-      {
-        mainImg:
-          "#",
-        name: ``,
-        price: "",
-        strikeOffPrice: "",
-        stock: "FEW LEFT",
-        offer: ` For TriBe Members`,
-        subImgOne:
-          "",
-        subImgTwo:
-          "",
-        subImgThree:
-          "",
-        subImgFour:
-          "",
-      },
-
-      {
-        mainImg:
-          "#",
-        name: ``,
-        price: "",
-        strikeOffPrice: "",
-        stock: "FEW LEFT",
-        offer: ` For TriBe Members`,
-        subImgOne:
-          "",
-        subImgTwo:
-          "",
-        subImgThree:
-          "",
-        subImgFour:
-          "",
-      },
-
-
 
     ];
     // calculating the total number of items
@@ -605,7 +660,7 @@
     var bookingItem=[];
     bookingItem.push(ele)
     localStorage.setItem('bookItem',JSON.stringify(bookingItem))
-    window.location.href = "bookingPage.html";
+    window.location.href = "menproductPage.html";
   }
 
 // // go to home
