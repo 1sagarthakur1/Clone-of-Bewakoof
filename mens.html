@@ -17,7 +17,9 @@
       src="https://kit.fontawesome.com/e9a5a74c45.js"
       crossorigin="anonymous"
     ></script>
-    
+    <link rel="icon"
+    href="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/9d/e9/c2/9de9c2b5-aa80-5e2f-a8fb-f425b3a3f226/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp"
+    type="image/x-icon" />
   </head>
   <body>
     <div><img class="banner" src="https://images.bewakoof.com/uploads/category/desktop/thin-strip-new-2022-freebie-desktop-banner-129-1661242223.jpg"  alt="Banner_image"></div>
@@ -172,16 +174,27 @@
         </div>
         <!-- </div> -->
       </div>
-      <div class="rightBox">
+     
         <div class="top">
-          <p>SORT BY</p>
-          <p></p>
+          <div id="sortingDiv">
+            <div class="buttonBox">
+              Sort by:
+              <button class="sortbtn sortHover" onclick="popularity()">
+                Popularity
+              </button>
+              <button class="sortbtn" onclick="lh()">Low to High</button>
+              <button class="sortbtn" onclick="hl()">High to Low</button>
+              <button class="sortbtn" onclick="percent()">Discount</button>
+            </div>
+          </div>
+         
         </div>
         <div class="bottom"></div>
       </div>
     </div>
 
-    <!-- <div id="footer"></div> -->
+   
   </body>
 </html>
+
 <script src="scripts/mens.js"></script>
