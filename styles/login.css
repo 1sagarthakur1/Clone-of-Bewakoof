@@ -89,6 +89,12 @@
     font-family: montserrat-bold,sans-serif;
     gap: 10px;
 }
+#logWconwiE:hover{
+   background-color:rgb(32, 130, 130);
+   border-color: rgb(32, 130, 130);
+   color: white;
+   padding:5px;
+}
 #loggoogle{
     height: 30px;
     width: 150px;
@@ -103,6 +109,12 @@
     gap: 14px;
     font-family: montserrat-bold,sans-serif;
 }
+#loggoogle:hover{
+    background-color:rgb(32, 130, 130);
+    border-color: rgb(32, 130, 130);
+    color: white;
+    padding:5px;
+ }
 #logface{
     height: 30px;
     width: 150px;
@@ -117,6 +129,12 @@
     font-family: montserrat-bold,sans-serif;
     gap: 10px;
 }
+#logface:hover{
+    background-color:rgb(32, 130, 130);
+    border-color: rgb(32, 130, 130);
+    color: white;
+    padding:5px;
+ }
 #forpera{
     color: gray;
     font-size:14px;
