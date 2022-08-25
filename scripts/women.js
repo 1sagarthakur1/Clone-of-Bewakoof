@@ -572,14 +572,11 @@ var womensData = [
     var bookingItem=[];
     bookingItem.push(ele)
     localStorage.setItem('bookItem',JSON.stringify(bookingItem))
-    window.location.href = "bookingPage.html";
+    window.location.href = "productPage.html";
   }
 
-// // go to home
-// document.querySelector(".p-logo").addEventListener("click", goToHome);
-// function goToHome() {
-//   window.location.href = "index.html";
-// }
+
+
 
 
 
