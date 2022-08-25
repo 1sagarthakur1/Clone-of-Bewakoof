@@ -660,7 +660,7 @@
     var bookingItem=[];
     bookingItem.push(ele)
     localStorage.setItem('bookItem',JSON.stringify(bookingItem))
-    window.location.href = "menproductPage.html";
+    window.location.href = "productPage.html";
   }
 
 // // go to home
