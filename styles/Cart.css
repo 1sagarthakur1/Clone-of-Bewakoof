@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+}
+#Allcartpart{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+#Fcartsec{
+    width: 650px;
+    /* border: 1px solid black; */
+    /* height: 600px; */
+    /* gap: 20px; */
+}
+#PRICESUMMARY{
+    /* top: 50px; */
+    bottom:30px;
+    width: 430px;
+    /* border: 1px solid black; */
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: sticky; */
+    
+}
+#Saveextra{
+    height: 30px;
+    width: 410px;
+    display: flex;
+    align-items: center;
+    background-color:#fdd835;
+    padding: 10px;
+    border-radius: 5px;
+}
+#wohooo{
+    margin-top:10px;
+    height: 50px;
+    width: 410px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#Whistles{
+    margin-top:10px;
+    height: 50px;
+    width: 410px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#coupon{
+    margin-top:10px;
+    height: 30px;
+    width: 410px;
+    padding: 10px;
+    border: 0.5px solid gray;
+  
+    font-family: Montserrat-Regular;
+    line-height: 1.;
+}
+#havecoupon{
+    height: 30px;
+    background-color: rgb(229, 247, 247);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 13px;
+    color: rgb(44, 123, 134);
+      border-radius: 5px;
+      font-weight: 600;
+}
+#PSumary{
+  
+    height: 15px;
+    width: 410px;
+    padding: 10px;
+    background-color: rgb(243, 240, 240);
+    font-size: 15px;
+    font-weight: 1000;
+}
+#summary{
+    border: 0.5px solid gray;
+}
+.summaa{
+    height:25px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forallprices{
+    height: 20px;
+    /* border: 1px solid black; */
+    width: 100px;
+    text-align: center;
+}
+#saving{
+    height: 25px;
+    width: 380px;
+    background-color: rgb(204, 240, 228);
+    padding-left:10px;
+    margin: auto;
+    margin-top:20px;
+    border-radius: 75px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: green;
+}
+#totalbut{
+    margin-top:40px;
+    height: 50px;
+    width: 410px;
+    padding: 10px;
+    border-top: 0.5px solid gray;
+    display: flex;
+    justify-content: space-around;
+
+}
+#total{
+    width: 100px;
+}
+#pebutton{
+    width: 250px;
+    background-color:rgb(66, 162, 162);
+    border-color: rgb(66, 162, 162);
+    border: 1px;
+    border-radius:5px;
+    color: white;
+    font-size:15px;
+}
+#gaddi{
+    height: 30px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    background-color:#fcffee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#gaddinnerdiv{
+    display: flex;
+    font-size: 14px;
+    gap:30px;
+    position: relative;
+}
+#gddiimg{
+    width: 30px;
+    height: 15px;
+    display: flex;
+    font-size: 14px;
+    gap: 15px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    position: absolute;
+}
+
+    @keyframes slidein {
+    from {
+        margin-left:0px;
+        width:30px;
+    }
+    
+    to {
+        margin-left:620px;
+        width:30px;
+    }
+}
+#Fimage{
+height:150px;
+margin-top: 20px;
+}
+#divent{
+    height: 240px;
+    width: 650px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+#divFpriceheadimg{
+    display: flex;
+    height: 185px;
+    width: 650px;
+}
+#divFpricehead{
+padding:10px;
+width: 450px;
+}
+#divFprice{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+}
+#persave{
+    color: green;
+}
+#removebut{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-top: 2px solid rgb(234, 226, 226);
+    border-right: 2px solid rgb(234, 226, 226);
+    border-bottom: 0px;
+    border-left:0px;
+    color: gray;
+}
+#movebut{
+    width: 400px;
+    height: 55px;
+    background-color: white;
+    border-top: 2px solid rgb(234, 226, 226);
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left:0px;
+    color: gray;
+}
+#h4Fsecendpr{
+    color: gray;
+    text-decoration: line-through;
+}
+#totalprice{
+    font-weight: 600;
+}
+#sortquntdiv{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+#sortdiv{
+    height: 17px;
+}
