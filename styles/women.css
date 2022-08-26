@@ -94,7 +94,15 @@
     align-items: center;
     justify-content: space-between;
   }
-  img {
+  img:hover{
+        
+    height: 81%;
+    color: antiquewhite;
+    cursor: pointer;
+    opacity: 0.5 ;
+    z-index:-20; 
+  }
+  img{
     width: 100%;
   }
   /* // for leftBox */
