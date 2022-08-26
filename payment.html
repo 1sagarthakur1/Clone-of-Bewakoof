@@ -1,0 +1,580 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<link rel="stylesheet" href="./styles/payment.css">
+<style>
+    #header{
+        height:auto;
+        width:100%;
+        /* border:1px solid red; */
+        /* margin-bottom:-50px; */
+        padding-bottom:20px;
+    }
+    #container{
+        display:flex;
+        justify-content: space-between;
+        /* border:1px solid grey; */
+        margin-bottom:-10px;
+
+    }
+    #left_header{
+        margin-right:200px;
+        margin-top:-10px;
+    }
+    #Bimage{
+        margin-left:40px;
+    }
+    #middle_pay{
+        height:auto;
+        width:94%;
+        /* border:1px solid grey; */
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        padding-bottom:100px;
+    }
+    #left{
+        height:auto;
+        width:62%;
+        border:1px solid rgb(221, 215, 215);
+        display:flex;
+        justify-content: space-between;
+        padding-bottom:60px;
+    }
+    #right{
+        height:auto;
+        width:35%;
+        /* border:1px solid blue; */
+    }
+    #left_left{
+        height:auto;
+        width:37%;
+        /* border:1px solid maroon; */
+    }
+    #left_right{
+        height:500px;
+        width:60%;
+        /* border:1px solid black; */
+    }
+    #id{
+        height:16%;
+        width:100%;
+        /* border:1px solid orange; */
+        display:flex;
+        background:rgb(248, 246, 246);
+        
+    }
+    #pay_image{
+        height:30px;
+        width:30px;
+        margin:25px 0 0 20px;
+    }
+    #pay_span{
+        /* margin:27px 0 0 20px; */
+        box-sizing: border-box;
+        font-family: montserrat-bold,sans-serif!important;
+        cursor: pointer;
+        line-height: 21px!important;
+        margin:29px 0 0 20px;
+        color:black;
+        font-size: 17px;
+        
+    }
+    .icon{
+        height:20px;
+        width:45px;
+        margin-top:30px;
+        margin-left:20px;
+    }
+    .icon2{
+        height:15px;
+        width:25px;
+        margin-top:30px;
+        margin-left:20px;
+    }
+    .icon3{
+        height:20px;
+        width:60px;
+        margin-top:30px;
+        margin-left:20px;
+    }
+    
+    #first_up{
+        height:auto;
+        width:350px;
+        /* border:1px solid red; */
+    }
+    
+    
+    #card_input{
+        font-family: sans-serif;
+    line-height: 24px;
+    width: 100%;
+    height: 39px;
+    padding: 5px 0;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bcbcbc;
+    border-radius: 0;
+    background: none;
+    color: grey;
+    box-shadow: none;
+    display: block;
+    -webkit-appearance: none;
+    margin-top:20px;
+    font-size: 17px;
+
+    }
+    #middle_left_right{
+        height:300px;
+        width:100%;
+        /* border:2px solid yellow; */
+    }
+    #down_first_input{
+        height:100px;
+        width:100%;
+        /* border:1px solid  rgb(125, 244, 125); */
+        display:flex;
+        justify-content: space-between;
+        margin-top:15px;
+    }
+    #expiry_detail{
+        height:100%;
+        width:48%;
+        margin-top:-10px;
+        /* border:1px solid yellow; */
+    }
+    #cvv{
+        height:100%;
+        width:48%;
+        /* border:1px solid yellow; */
+        display:flex;
+        margin-top:-10px;
+
+    }
+    #card_input2{
+       
+        font-family: sans-serif;
+    line-height: 24px;
+    width: 100%;
+    height: 39px;
+    padding: 5px 0;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bcbcbc;
+    border-radius: 0;
+    background: none;
+    color: grey;
+    box-shadow: none;
+    display: block;
+    -webkit-appearance: none;
+    /* margin-top:20px; */
+    font-size: 17px;
+    margin-top:-20px;
+    }
+    
+    #input_card3{
+        font-family: sans-serif;
+    line-height: 24px;
+    width: 100%;
+    height: 39px;
+    padding: 5px 0;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bcbcbc;
+    border-radius: 0;
+    background: none;
+    color: grey;
+    box-shadow: none;
+    display: block;
+    -webkit-appearance: none;
+    margin-top:20px;
+    font-size: 17px;
+    }
+    #middle_down{
+        /* display:flex; */
+        height:50px;
+        width:300px;
+        /* border:3px solid red; */
+        margin-top:30px;
+
+    }
+    #label{
+        margin-left: 1rem;
+        margin-bottom: 0;
+        cursor: pointer;
+        color: #525252;
+        font-family: montserrat-regular,sans-serif;
+        font-weight: bold;
+    }
+    #checkbox{
+        margin-top:10px;
+    }
+    button{
+        height: 48px;
+                width:350px;
+        margin-top: 20px;
+        cursor: default;
+        border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0;
+    background-color: #D6D6D6;
+    }
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{
+        color: #737373;
+        margin: 14px 0px;
+        font-family: montserrat-regular,sans-serif;
+        word-spacing: 1px;
+        margin-top:-2px;
+        font-size: 14px;
+    }
+    hr{
+        margin-top:-3px;
+        margin-bottom:-1px;
+    }
+    h2{
+        font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif;
+    margin-left:40px;
+    margin-top:30px;
+}
+/* #email_div{
+    margin-top:10px;
+}
+#email_p{
+    margin-top:10px;
+
+} */
+#email_div{
+    /* border:2px solid green; */
+    margin-top:-10px;
+}
+#second{
+    height:100px;
+    width:auto;
+    /* border:1px solid blue; */
+    margin-top:15px;
+    margin-left:14px;
+}
+#top{
+    height:auto;
+    width:100%;
+    /* border:1px solid yellow; */
+    padding:10px;
+}
+#writ{
+    color: grey;
+}
+#item_image{
+    height:50px;
+    width:50px;
+    /* border:1px solid red; */
+    
+}
+#pro_info{
+    display:flex;
+    /* border:1px solid black; */
+}
+    #info_div{
+        margin-left:30px;
+    }
+    #item_name{
+        /* border:1px solid black; */
+        height:20px;
+        width:300px;
+        padding:0 0 8px 0;
+
+    }
+    #delivery{
+        /* border:1px solid pink; */
+        height:20px;
+        width:300px;
+        margin-top:-14px;
+        padding:0 0 8px 0;
+
+
+    }
+    #rr{
+        width:92%;
+        /* margin-top:-5px;
+        margin-bottom:10px; */
+    }
+    #price{
+        margin-top: 20px;
+        letter-spacing: 0.5px;
+
+        /* margin-bottom: 1rem!important; */
+        margin-left:10px;
+        margin-bottom:10px;
+        font-size: 18px;
+    line-height: 24px;
+    font-family: sans-serif;
+    height:40px;
+    width:200px;
+    /* border:1px solid pink; */
+    
+
+    }
+    /* #last{
+        display:flex;
+    } */
+    #text{
+        height:30px;
+        width:47%;
+        /* border:1px solid maroon; */
+        margin-left:10px;
+        margin-top:-12px;
+
+    }
+    #Total{
+        height:30px;
+        width:47%;
+        /* border:1px solid red; */
+        text-align: end;
+        margin-top:-12px;
+
+
+    }
+    #fst{
+      display:flex;
+      /* border:1px solid red; */
+
+    }
+    #snd{
+      display:flex;
+    }
+    #trd{
+      display:flex;
+      /* border:1px solid red; */
+
+    }
+    #fth{
+      display:flex;
+      margin-top:10px;
+    }
+    #shipping{
+        height:30px;
+        width:47%;
+        /* border:1px solid red; */
+        text-align: end;
+        margin-top:-12px;
+
+
+
+    }
+    #discount{
+        height:30px;
+        width:47%;
+        /* border:1px solid blue; */
+        text-align: end;
+        margin-top:-12px;
+
+
+
+    }
+    #end{
+        height:30px;
+        width:47%;
+        /* border:1px solid maroon; */
+        margin-left:10px;
+        color:black;
+        font-weight: 400;
+        margin-top:-5px;
+        margin-left:10px;
+
+        
+    }
+    #end_price{
+        height:30px;
+        width:47%;
+        /* border:1px solid red; */
+        text-align: end;
+        color:black;
+        margin-top:-5px;
+
+    }
+    #address{
+        height:30px;
+        width:300px;
+        /* border:1px solid green; */
+        /* margin-top:-8px; */
+        margin-top:-1px;
+        margin-bottom:-2px;
+        font-family: sans-serif;
+        font-size: small;
+        font-weight: lighter;
+        color:grey;
+    }
+</style>
+<body>
+
+
+   <div id="header">
+
+    <div id="container">
+        <img id="Bimage" src="https://images.bewakoof.com/web/ic-desktop-normal-bwkf-logo.svg" alt="Icon image">
+        <div id="left_header">
+            <p id="email_p">Signed as</p>
+            <div id="email_div">bxjhbxs</div>
+        </div>
+    </div>
+    <br>
+
+    <hr>
+
+
+    <!-- ************************************************* -->
+    <h2>Choose your payment method</h2>
+    <div id="middle_pay">
+        <div id="left">
+            <div id="left_left">
+
+                <div id="id">
+                    <img id="pay_image" src="https://images.bewakoof.com/web/bank-card-fill-1645697857.svg" alt="">
+                    <span id="pay_span">Debit/Credit Card</span>
+                </div>
+                <hr>
+                <div id="id">
+                    <img id="pay_image" src="https://images.bewakoof.com/web/Group-1645705428.png" alt="">
+                    <span id="pay_span">Wallet</span>
+                </div>
+                <hr>
+                <div id="id">
+                    <img id="pay_image" src="https://images.bewakoof.com/web/upi-icon-1645705429.png" alt="">
+                    <span id="pay_span">UPI</span>
+                </div>
+                <hr>
+                <div id="id">
+                    <img id="pay_image" src="https://images.bewakoof.com/web/nb-icon-1645705428.png" alt="">
+                    <span id="pay_span">Net Banking</span>
+                </div>
+                <hr>
+                <div id="id">
+                    <img id="pay_image" src="https://images.bewakoof.com/web/cod-icon-1645705427.png" alt="">
+                    <span id="pay_span">Cash On Delivery</span>
+                </div>
+                <hr>
+                <div id="id"></div>
+                <hr>
+                
+            </div>
+            <div id="left_right">
+
+                <div id="first_up">
+                    <img class="icon" src="https://images.bewakoof.com/web/ic-visa-gray-payment-v1.jpg" alt="">
+                    <img  class="icon2" src="https://images.bewakoof.com/web/ic-master-card-payment-v1.jpg" alt="">
+                    <img class="icon3" src="https://images.bewakoof.com/web/ic-rupay-payment-v1.jpg" alt="">
+                    <img class="icon2" src="https://images.bewakoof.com/web/ic-american-express-payment-v1.jpg" alt="">
+                </div>
+
+                <div id="middle_left_right">
+                    <input id="card_input" type="text" placeholder="Card Number">
+                    
+                    <div id="down_first_input">
+                       
+                       
+                        <div id="expiry_detail">
+                            <input id="input_card3" type="text" placeholder="Valid through(MM/YY)">
+                        </div>
+                        
+                        
+                        <div  id="cvv">
+                           <input id="input_card3" type="text" placeholder="CVV">
+                           <!-- <img src="" alt="bjbxchdb"> -->
+                        </div>
+
+
+                    </div>
+                    <input id="card_input2" type="text" placeholder="Name On Card">
+
+
+
+
+                    <div id="middle_down">
+                        <input id="checkbox" type="checkbox">
+                        <label id="label" for="">Save Card Details for Later</label>
+                    </div>
+                    <p>This transaction you make is totally secure. We don't save your CVV number.</p>
+                    <button>CONFIRM</button>
+                </div>
+                 
+                
+        
+
+            </div>
+
+            
+        </div>
+
+        <hr>
+        
+        <!-- ************************************************************* -->
+
+        <div id="right">
+            <div id="top">
+
+            <span>Delivering order to</span>
+            <span id="email_value">@gmail.com</span>
+            <h6 id="address">ndc sjn c</h6>
+            </div>
+
+            <hr id="rr">
+
+            <div id="second">
+                <p id="writ">You are paying for these items</p>
+                <div id="pro_info">
+                    <img id="item_image" src="" alt="hbshgd">
+                    <div id="info_div">
+                        <p id="item_name">bcdbc</p>
+                        <p id="delivery">bcjbc</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr id="rr">
+
+            <div id="last">
+                <h3 id="price">Price Summary</h3>
+                <div id="fst">
+                    <p id="text">Total MRP (Inc. of taxes)</p>
+                    <p1 id="Total">0</p1>
+                </div>
+                <div id="snd">
+                    <p id="text">Shipping Charges</p>
+                    <p1 id="shipping">0</p1>
+                </div>
+                <div id="trd">
+                    <p id="text">Discount on MRP</p>
+                    <p id="discount">0</p>
+                </div>
+                <hr id="rr">
+                <div id="fth">
+                    <p1 id="end">Final Amount</p1>
+                    <p1 id="end_price">0</p1>
+                </div>
+            </div>
+
+            
+
+
+
+        </div>
+        <!-- ************************************************************** -->
+    </div>
+   </div> 
+    
+</body>
+</html>
+<script src="./scripts/payment.js"></script>

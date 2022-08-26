@@ -1,4 +1,9 @@
 
 
-let RightSide = document.querySelector("#right");
+// 
+let userData = JSON.parse(localStorage.getItem(user));
+console.log(userData);
+
+
+
 
