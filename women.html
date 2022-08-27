@@ -11,6 +11,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link rel="stylesheet" href="styles/women.css">
+    <link rel="stylesheet" href="styles/preloader.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Women</title>
     <script
@@ -22,6 +23,7 @@
     type="image/x-icon" />
   </head>
   <body>
+    <div id="preloader"></div>
     <div><img class="banner" src="https://images.bewakoof.com/uploads/category/desktop/thin-strip-new-2022-freebie-desktop-banner-129-1661242223.jpg"  alt="Banner_image"></div>
     <!-- end of header -->
     <p class="pageLocation">Home  /  Women's Clothing</p>
@@ -185,7 +187,14 @@
       </div>
     </div>
 
-   
+    <script>
+      var Loader=document.getElementById("preloader")
+      window.addEventListener("load", function(){
+      preloader.style.display = "none";
+      })
+
+      
+     </script>
   </body>
 </html>
 
