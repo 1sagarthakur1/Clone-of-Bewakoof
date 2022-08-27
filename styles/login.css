@@ -38,7 +38,7 @@
     flex-direction: column;
 }
 .logtype{
-    height: 50px;
+    height: 25px;
     width: 230px;
 }
 #logtype{
@@ -89,6 +89,12 @@
     font-family: montserrat-bold,sans-serif;
     gap: 10px;
 }
+#logWconwiE:hover{
+   background-color:rgb(32, 130, 130);
+   border-color: rgb(32, 130, 130);
+   color: white;
+   padding:5px;
+}
 #loggoogle{
     height: 30px;
     width: 150px;
@@ -103,6 +109,12 @@
     gap: 14px;
     font-family: montserrat-bold,sans-serif;
 }
+#loggoogle:hover{
+    background-color:rgb(32, 130, 130);
+    border-color: rgb(32, 130, 130);
+    color: white;
+    padding:5px;
+ }
 #logface{
     height: 30px;
     width: 150px;
@@ -117,6 +129,12 @@
     font-family: montserrat-bold,sans-serif;
     gap: 10px;
 }
+#logface:hover{
+    background-color:rgb(32, 130, 130);
+    border-color: rgb(32, 130, 130);
+    color: white;
+    padding:5px;
+ }
 #forpera{
     color: gray;
     font-size:14px;
@@ -142,7 +160,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
- height: 30px;
+ height: 20px;
  width: 60px;
  background-color: rgb(244, 241, 241);
  color: gray;
