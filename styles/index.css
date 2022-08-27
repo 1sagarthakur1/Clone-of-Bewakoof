@@ -2,7 +2,7 @@
     display:flex;
     /* margin-bottom:10px; */
 }
-#thumbnailO{
+.thumbnailO{
     height:500px;
     width:50%;
 z-index:100; 
@@ -15,8 +15,11 @@ transform: scale(1.1);
 
 
 }
+body{
+    background-color: rgb(23, 19, 19);
+}
 
-#ttthumbnailT{
+.thumbnailT{
     height:500px;
     width:50%;
 z-index:500; 
@@ -31,10 +34,11 @@ transform: scale(1.1);
 #up{
     height:70px;
     width:100%;
-    padding-bottom:20px;
+    /* padding-bottom:20px; */
+    margin-bottom:20px;
 }
 #khali{
     height:70px;
     width:100%;
-    padding-top:20px;
+    margin-top:40px;
 }
