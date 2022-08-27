@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="/styles/app.css">
+    <link rel="stylesheet" href="styles/preloader.css">
     <title>Downloads</title>
 </head>
 <body>
+    <div id="preloader"></div>
     <div class="box">
         
        
@@ -37,5 +39,13 @@
 
 </div>
 </div>  
+<script>
+    var Loader=document.getElementById("preloader")
+    window.addEventListener("load", function(){
+    preloader.style.display = "none";
+    })
+
+    
+   </script>
 </body>
 </html>

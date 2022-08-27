@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Address</title>
-    <link rel = "stylesheet" href = "address.css">
+    <link rel = "stylesheet" href = "/styles/address.css">
     <!-- font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/preloader.css">
 </head>
 <body>
-    
+    <div id="preloader"></div>
     <!-- form modal -->
     <div id = "fullscreen-div"></div>
     <form class = "modal" id = "modal">
@@ -135,7 +136,14 @@
    
     
 
-
-    <script src = "address.js"></script>
+    <script>
+        var Loader=document.getElementById("preloader")
+        window.addEventListener("load", function(){
+        preloader.style.display = "none";
+        })
+  
+        
+       </script>
+    <script src = "/scripts/address.js"></script>
 </body>
 </html>

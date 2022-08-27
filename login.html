@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/preloader.css">
 </head>
 <body>
+    <div id="preloader"></div>
     <div id="logSBewkoof">
         <div id="logbewimg">
            <h1 id="headlog">Welcome to the world of Bewakoof!</h1>
@@ -57,6 +59,15 @@
            </div>
         </div>
     </div>
+    <script>
+        var Loader=document.getElementById("preloader")
+        window.addEventListener("load", function(){
+        preloader.style.display = "none";
+        })
+  
+        
+       </script>
 </body>
+
 </html>
 <script src="scripts/login.js"></script>

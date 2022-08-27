@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles/preloader.css">
+    <link rel="stylesheet" href="styles/preloader.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -22,6 +24,7 @@
     type="image/x-icon" />
   </head>
   <body>
+    <div id="preloader"></div>
     <div><img class="banner" src="https://images.bewakoof.com/uploads/category/desktop/thin-strip-new-2022-freebie-desktop-banner-129-1661242223.jpg"  alt="Banner_image"></div>
     <!-- end of header -->
     <p class="pageLocation">Home  /  Men Clothing</p>
@@ -192,8 +195,15 @@
         <div class="bottom"></div>
       </div>
     </div>
-
    
+    <script>
+      var Loader=document.getElementById("preloader")
+      window.addEventListener("load", function(){
+      preloader.style.display = "none";
+      })
+
+      
+     </script>
   </body>
 </html>
 
