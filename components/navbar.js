@@ -1,3 +1,6 @@
+
+
+
 let Navbar = () => {
     return`<div id="upper_navbar">
 
@@ -21,7 +24,7 @@ let Navbar = () => {
 <!-- ********************************************* -->
 <div id="lower_navbar">
 
-    <div id="bewakoof"><a href="#"><img id="bewakoof_image" src="https://images.bewakoof.com/web/ic-desktop-normal-bwkf-logo.svg" alt=""></a></div>
+    <div id="bewakoof"><a href="index.html"><img id="bewakoof_image" src="https://images.bewakoof.com/web/ic-desktop-normal-bwkf-logo.svg" alt=""></a></div>
     
 
     <!-- ************************** -->
@@ -158,34 +161,27 @@ let Navbar = () => {
         <li><a href="mobile.html">MOBILE COVER</a>
             <div id="logo_sub_menu3">
                 <div id="sub_menu_item"><ul>
-                    <li><a href="#"><h2>POPULAR</h2></a></li>
-                    <li><a href="#"><h3>Xiaomi</h3></a></li>
                     <li><a href="#">Realme 9 Power</a></li>
                     <li><a href="#">Xiaomi Mi 10T</a></li>
                     <li><a href="#">Xiaomi Redami K2</a></li>
-                    <li><a href="#"><h3>Sumsang Galaxy F62</h3></a></li><li><a href="#"></a></li>
                     <li><a href="#">Sumsung Galaxy F41</a></li>
                     <li><a href="#">Sumsumg Galaxy A30</a></li>
                     
 
                    </ul>
                    <ul>
-                    <li><a href="#"><h3>Oneplus</h3></a></li>
                     <li><a href="#">Oneplus 9R</a></li>
                     <li><a href="#">Oneplus 8 pro</a></li>
                     <li><a href="#">Oneplus 8T</a></li>
-                    <li><a href="#"> <H3>Realme</H3></a></li>
                     <li><a href="#">Realme 6</a></li><li><a href="#"></a></li>
                     <li><a href="#">Realme 5</a></li>
                     
 
                    </ul>
                    <ul>
-                    <li><a href="#"><h3>Apple</h3></a></li>
                     <li><a href="#">iphone 13</a></li>
                     <li><a href="#">iphone 12</a></li>
                     <li><a href="#">iphone 12 pro</a></li>
-                    <li><a href="#"><H3>Vivo</H3></a></li>
                     <li><a href="#">vovo vii Pro</a></li><li><a href="#"></a></li>
                     <li><a href="#"> Vivo X60</a></li>
                     <li><a href="#">Vivo Y91</a></li>
@@ -227,7 +223,7 @@ let Navbar = () => {
       <a  href="#"><img id="heart_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLPz2FtshHHo7bNlxsWlIE_07D4yDWbzTqw&usqp=CAU" alt=""></a>
    
    
-      <a href="#"><img id="bag_image" src="https://t4.ftcdn.net/jpg/05/24/29/13/240_F_524291304_onhghlO0K3DAasTsimm3CFLSVGiaf3Wc.jpg" alt=""></a>
+      <a href="Cart.html"><img id="bag_image" src="https://t4.ftcdn.net/jpg/05/24/29/13/240_F_524291304_onhghlO0K3DAasTsimm3CFLSVGiaf3Wc.jpg" alt=""></a>
 
     </div>
 
@@ -235,3 +231,5 @@ let Navbar = () => {
 </div>`;
 }
 export default Navbar;
+
+
