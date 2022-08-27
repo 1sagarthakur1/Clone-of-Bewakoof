@@ -2,7 +2,8 @@ body{
     max-width: 1700px;
 }
 #upper_navbar{
-    padding: 8px 0 5px ;
+    padding: 13px 0 5px ;
+
 
 font-size: 10px;
 font-weight: 500;
@@ -39,7 +40,7 @@ width:35%;
 }
 #first_div{
 height:100%;
-width:25%;
+width:30%;
 /* border:1px solid yellow; */
 margin-left:30px;
 }
@@ -92,7 +93,7 @@ align-items: center;
 margin-top:-10px;
 }
 #second_div{
-border:1px solid black;
+/* border:4px solid black; */
 height:70%;
 width:90%;
 margin-top:5px;
@@ -105,11 +106,183 @@ border: 0;
 
 
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+   
+    
+    #nav_bar_search
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        /* border:3px solid green; */
+    
+    }#logo_menu
+    {
+        display: flex;
+        align-items: center;
+        /* border:2px solid red; */
+        padding-left:-30px;
+    
+        
+    }#logo_menu>div{
+        margin-right: 500px;
+    }
+    #logo_menu>li{
+        list-style-type: none;
+        margin: 15px 20px;
+        /* border:2px solid blue; */
+        
+      
+    }#logo_menu>li>a{
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+    }#logo_menu>li>a>img{
+        width: 150px;
+        
+    }
+    #nav_search_bar
+    {
+        display: flex;
+        align-items: center;
+    }#nav_search_bar>li{
+        list-style-type: none;
+        color: #333;
+        margin: 10px;
+     align-items: center;
+       
+    }#nav_search_bar>li>a
+    {
+        text-decoration: none;
+        color: #333;
+        font-size: 20px;
+      
+    }
+    
+    #nav_search_bar>li>input
+    {
+        width: 320px;
+        
+        background-color:rgb(238, 238, 238);
+        border-radius: 2px;
+        font-size: 14px;
+        padding: 10px;
+    
+    border: none;
+    }#nav_search_bar>li>input:hover
+    {
+    background-color: transparent;
+    border: .5px solid #333;
+    }
+    
+    #nav_bar_manu
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       
+    }#nav_bar_manu>li
+    {
+        list-style: none;
+        font-size: 18px;
+         margin:10px 30px;
+    }#nav_search_bar>li>li
+    {
+        font-size: 18px;
+    }
+    #nav_bar_manu>li>a{
+        text-decoration: none;
+        color: #333;
+        padding: 2px;
+    }#nav_bar_manu>li>a:hover
+    {
+        font-weight: 600;
+        color: black;
+    }hr{
+         border: .2px solid rgb(231, 208, 208);;
+    }#nav_bar_manu>li:hover
+    {
+    border-bottom: 4px solid rgb(253, 216, 53);
+    
+    }
+    
+    #logo_menu>li>a:hover
+    {
+    border-bottom: 4px solid rgb(253, 216, 53);
+    
+    padding-bottom: 18px;
+    visibility: visible;
+    }
+    
+    #sub_menu_item
+    {
+        display: flex;
+        list-style-type: none;
+        position: absolute;
+        background-color: #ffffff;
+        text-transform: capitalize;
+       /* box-shadow: -1px -1px 70px -20px rgb(0, 0, 0.3); */
+       border: 1px solid wheat;
+       margin-top: 20px;
+       width: 60%;
+       margin-right: 30%;
+       visibility: hidden;
+    }
+    #sub_menu_item>ul{
+        list-style-type: none;
+        padding: 10px;
+        margin-left: 10px;
+       
+    }#sub_menu_item>ul>li>a{
+        text-decoration: none;
+        line-height: 30px;
+        cursor: pointer;
+        color: black;
+    }
+    #logo_menu>li:hover #sub_menu_item
+    {
+    visibility: visible;
+    }#logo_sub_menu1
+    {
+        margin-right: 30%;
+    }
+    
+    #nav_search_bar_fetchData{
+        width: 340px;
+        position: fixed;
+        background-color: white;
+    }
+    
+    .top_category>li>a>img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }.top_category>li>a{
+        display: flex;
+        padding: 5px;
+       
+    }.top_category>li>a>span{
+        margin-left: 20px;
+    }
+    #items{
+        background-color: gold;
+        border-radius: 50%;
+        font-size: 15px;
+        font-weight: 100;
+        
+    }
+    /* #cart-icon{
+        height:35px;
+        width:35px;
+    } */
 
 #searchImage{
-height:21px;
-width:21px;
-margin:10px 0 0 5px;
+height:25px;
+width:24px;
+margin:4px 0 0 15px;
 background-color: transparent;
 
 }
@@ -124,7 +297,7 @@ border: 1px solid transparent;
 color: rgba(0,0,0,.5);
 border-radius: 5px;
 position: relative;
-margin-left:10px;
+margin-left:0px;
 height:80%;
 /* transition: all .1s ease-in .1s; */
 }
