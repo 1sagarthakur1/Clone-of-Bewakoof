@@ -13,6 +13,8 @@
   /* background-color: blue; */
   margin: auto;
   width: 100%;
+  position: sticky;
+  top: 0;
   height: 1000px;
   padding: 20px;
   display: flex;
@@ -33,6 +35,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  cursor: pointer;
+  
 }
 .strike {
   text-decoration: line-through;
@@ -98,7 +102,7 @@ img {
   /* background: rgba(255, 255, 255, 0.1); */
   height: 100vh;
   position: sticky;
-  top: 20px;
+  top:0;
   /*overflow-y: auto;*/
   padding-right: 10px;
   margin-left: 10%;
@@ -107,6 +111,7 @@ img {
 }
 .side-bar .man {
   width:50px;
+  
   margin-top: 80px;
 }
 .side-bar .map .item {
@@ -118,11 +123,13 @@ img {
   font-size: 14px;
   text-decoration: none;
   display: block;
+  
   /* padding: 5px 30px; */
   line-height: 50px;
 }
 .side-bar .menu .item>a{
   border-bottom: 1px solid rgb(195, 195, 195);
+  
 }
 .side-bar .menu .item a:hover {
   /* background-color: gray; */
@@ -130,6 +137,7 @@ img {
 }
 .side-bar .menu .item {
   margin-right: 15px;
+  
 }
 .side-bar .menu .item a .dropdown {
   position: absolute;
@@ -157,6 +165,14 @@ img {
   margin-top: 20px;
   font-size: 12px;
 
+}
+img:hover{
+        
+  height: 81%;
+  color: antiquewhite;
+  cursor: pointer;
+  opacity: 0.5 ;
+  z-index:-20; 
 }
 
 /**=======================
@@ -202,4 +218,31 @@ img {
 .sortbtn:hover {
   border: 1px solid rgb(36, 174, 177);
   color: rgb(36, 174, 177);
+}
+
+/* Mobile View */
+@media screen and (min-width:250px) and (max-width:480px) {
+  .bottom{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .side-bar{
+    margin-left: 0%;
+  }
+}
+
+ /* Tablet View */
+ @media screen and (min-width:481px) and (max-width:768px) {
+  .bottom{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .side-bar{
+    margin: 0%;
+  }
+}
+ /* Laptop View */
+ @media screen and (min-width:769px) and (max-width:1024px) {
+  .bottom{
+    grid-template-columns: repeat(3,1fr);
+  }
+
 }
