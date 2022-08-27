@@ -1,0 +1,242 @@
+
+        #mainContainer{
+            height: 730px;
+            background-color:#f5f5f5;
+            width: 80%;
+            margin: auto;
+            padding-top: 50px;
+            padding-left: 40px;
+            margin-top: 30px;
+            /* background-color: aqua; */
+            /* display: flex; */
+            
+            
+            
+        }
+        #withimage{
+            display: flex;
+        }
+        img{
+            height: 300px;
+            margin-left: 55px;
+        }
+       h1>hr{
+           width: 13%;
+           margin-right: 1100px;
+           border:1.3px solid #fdd835 ;
+           background-color: #fdd835;
+           
+       }
+       #container{
+               height: auto;
+               width: 65%;
+               /* margin-left: 20px; */
+               background-color: white;
+               padding-left: 40px;
+               /* padding-top: 50px; */
+               
+       }
+       h1{
+           font: 24px montserrat, sans-serif;
+           font-weight: bold;
+           margin-bottom: 40px;
+        
+       }
+       
+     
+   
+      
+      #popular a{
+          text-decoration: none;
+          color: #667891;
+      }
+     #popular{
+          margin-top: 0px;
+          display: grid;
+          padding: 40px;
+          grid-template-columns: repeat(3,1fr);
+          /* height: 100px; */
+          grid-row-gap: 33px;
+
+         /* height: 1100px; */
+          font-family: montserrat,sans-serif;
+      }
+      sup{
+          color: #e54f46;
+          font-size: 9px;
+          font-weight: bold;
+          font-family: montserrat , sans-serif;
+      }
+      
+      i{
+          font-size: 10px;
+          color: #63d2d7;
+       
+      }
+      #back>a{
+         
+          color: #63d2d7;
+         
+       
+      }
+      #back{
+        margin-left: 700px;
+        margin-top: 10px;
+      }
+      span{
+       color: #c5c5c5;
+       font-size: 20px;
+       
+      }
+
+
+      #topbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    font-family:montserrat,sans-serif; 
+    position: sticky; 
+    top:0; 
+}
+#topbar a:hover{
+color:gray;
+
+}
+/* left part */
+.left{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #eee;
+        height: 20px;
+        box-sizing: border-box;
+        padding: 3px;
+        margin-left: -140px;
+        font-size: 12px;  
+}
+.left a{
+text-decoration: none;
+color: #333333;
+margin: 14px;
+}
+
+/* right part */
+.right{
+    display: flex;
+    justify-content: right;
+    background-color: #eee;
+    box-sizing: border-box;
+    height: 20px;
+    padding: 3px;
+    font-size: 12px;
+}
+.right a{
+    text-decoration: none;
+    color:#333333;
+    margin-right: 3rem;
+}
+/* Navbar */
+
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 0px;
+    padding-top:5px;
+    font-family:montserrat,sans-serif;
+    border-bottom: #5c5a5a 1px solid;
+    background-color:white;
+    position: sticky;
+    top:20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#navbar a:hover{
+    color: cyan;
+}
+.navleft{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    
+    
+}
+#p-logo{
+    margin-top: 0px;
+}
+#p-logo img{
+    width: 150px;
+    height: 20px;
+    padding: 2px;
+    margin-bottom: 3px;
+}
+.navleft a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.Msub-menu{
+    display:none;
+    margin-top: 20px;
+    position: sticky;
+    top:30px;
+}
+.navleft a:hover+.Msub-menu{
+display: block;
+position: absolute;
+background-color:rgb(250, 195, 15);
+opacity: 0.7;
+color: BLACK;
+position:stiky;
+}
+.Msub-menu ul{
+    list-style: none;
+    display: block;
+    margin-top: 15px ;
+    
+}
+.Msub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    text-align: center;
+    
+}
+.Msub-menu ul h4{
+ text-align: center;
+ border-bottom: 1px dotted;
+}
+
+.navright{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    box-sizing: border-box;
+    padding: 7px;
+    margin-bottom: px;
+    margin-top: 0px;
+    
+}
+.navright a{
+    text-decoration: none;
+    font-size:14px;
+    color: #333333;
+    margin: 15px;
+}
+
+      
+      @media only screen and (min-width:70px) and (max-width: 550px){
+  #popular{
+          margin-top: -90px;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-row-gap: 10px;
+          /* margin-top: 90px; */
+          height: auto;
+          
+      }
+      #mainContainer{
+          background-color: white;
+      }
+    }
+      
