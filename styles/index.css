@@ -1,0 +1,40 @@
+#main{
+    display:flex;
+    /* margin-bottom:10px; */
+}
+#thumbnailO{
+    height:500px;
+    width:50%;
+z-index:100; 
+cursor: pointer; 
+
+}
+
+.thumbnailO:hover { 
+transform: scale(1.1); 
+
+
+}
+
+#ttthumbnailT{
+    height:500px;
+    width:50%;
+z-index:500; 
+cursor: pointer; 
+
+}
+.thumbnailT:hover { 
+transform: scale(1.1); 
+
+
+}
+#up{
+    height:70px;
+    width:100%;
+    padding-bottom:20px;
+}
+#khali{
+    height:70px;
+    width:100%;
+    padding-top:20px;
+}
