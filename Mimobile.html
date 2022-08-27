@@ -14,9 +14,10 @@
     <link rel="icon"
     href="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/9d/e9/c2/9de9c2b5-aa80-5e2f-a8fb-f425b3a3f226/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp"
     type="image/x-icon" />
+    <link rel="stylesheet" href="styles/preloader.css">
 </head>
 <body>
-    
+  <div id="preloader"></div>
     <span>Home   /   Mobiles cover  </span>
     
     <div id = "mainContainer">  
@@ -68,7 +69,14 @@
     
     
     
-   
+<script>
+  var Loader=document.getElementById("preloader")
+  window.addEventListener("load", function(){
+  preloader.style.display = "none";
+  })
+
+  
+ </script>
     
 </body>
 </html>

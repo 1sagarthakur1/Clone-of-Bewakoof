@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Mobiles</title>
      <link rel="stylesheet" href="styles/product_page.css">
+     <link rel="stylesheet" href="styles/preloader.css">
     <script
       src="https://kit.fontawesome.com/e9a5a74c45.js"
       crossorigin="anonymous"
@@ -15,7 +16,7 @@
     type="image/x-icon" />
 </head>
 <body>
-
+  <div id="preloader"></div>
 
 <div id="bigContainer">
     <div><h1>Redmi 9 Power Back Covers & Cases <span id="countcol"><span>(</span><span id="count"></span><span>)</span></span> <hr></h1> 
@@ -23,6 +24,14 @@
         
     </div>
 </div>
+<script>
+  var Loader=document.getElementById("preloader")
+  window.addEventListener("load", function(){
+  preloader.style.display = "none";
+  })
+
+  
+ </script>
 
 </body>
 </html>

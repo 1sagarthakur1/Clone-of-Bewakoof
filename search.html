@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Search Box</title>
-    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="/styles/search.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="styles/preloader.css">
   </head>
   <body>
+    <div id="preloader"></div>
     <div class="wrapper">
       <div class="search-input">
         <a href="" target="_self" hidden></a>
@@ -20,8 +22,15 @@
     </div>
 
     <script src="js/suggestions.js"></script>
-    <script src="search.js"></script>
+    <script src="/scripts/search.js"></script>
+    <script>
+      var Loader=document.getElementById("preloader")
+      window.addEventListener("load", function(){
+      preloader.style.display = "none";
+      })
 
+      
+     </script>
   </body>
 </html>
 

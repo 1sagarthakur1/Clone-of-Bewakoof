@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
     <link rel="stylesheet" href="styles/mobileproductPage.css">
+    <link rel="stylesheet" href="styles/preloader.css">
     <script
       src="https://kit.fontawesome.com/e9a5a74c45.js"
       crossorigin="anonymous"
@@ -19,7 +20,7 @@
     type="image/x-icon" />
   </head>
   <body>
-    
+    <div id="preloader"></div>
     <p class="pageLocation">Mobile Covers / Xiaomi</p>
     <div class="container">
       <div class="leftBox">
@@ -94,6 +95,14 @@
       </div>
       <!-- <hr /> -->
     </div>
+    <script>
+      var Loader=document.getElementById("preloader")
+      window.addEventListener("load", function(){
+      preloader.style.display = "none";
+      })
+
+      
+     </script>
   </body>
 </html>
 
