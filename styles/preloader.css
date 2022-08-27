@@ -1,7 +1,7 @@
 
    
     #preloader{
-    background: transparent url(images/preloader.gif) no-repeat center center;
+    background: transparent url(/images/preloader.gif) no-repeat center center;
     background-size: 30%;
     height: 100vh;
     width: 100%;
