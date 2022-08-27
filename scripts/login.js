@@ -1,7 +1,9 @@
-var arr = ["1232","6267986053"]
+var arr = ["1232","6267986053","sagar","thakur"]
 function forloging(){
     event.preventDefault()
     let num = document.querySelector("#inputbala").value;
+    let username = document.querySelector("#username").value;
+    let useremail = document.querySelector("#useremail").value;
     if(num==""){
         alert("Please Enter Mobile Number")
     }
@@ -24,8 +26,12 @@ function forloging(){
             alert("one-time password : "+ otp)
             arr.shift()
             arr.shift()
+            arr.shift()
+            arr.shift()
             arr.push(otp)
             arr.push(num)
+            arr.push(username)
+            arr.push(useremail)
             console.log(arr)
             localStorage.setItem("OTP",JSON.stringify(arr))
         }

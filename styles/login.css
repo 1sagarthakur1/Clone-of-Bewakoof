@@ -38,7 +38,7 @@
     flex-direction: column;
 }
 .logtype{
-    height: 50px;
+    height: 25px;
     width: 230px;
 }
 #logtype{
@@ -160,7 +160,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
- height: 30px;
+ height: 20px;
  width: 60px;
  background-color: rgb(244, 241, 241);
  color: gray;
