@@ -1,0 +1,57 @@
+.box{
+   
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+.row{
+   
+    height: 1000px;
+    width: 22%;
+    margin-left: 18%;  
+}
+.row img{
+    margin-top: 250px;
+    height: 600px;
+    width: 100%;
+}
+.row2{
+   
+    height: 800px;
+    width: 22%;
+    margin-left: -40px;  
+}
+.row2 img{
+    margin-top: 130px;
+    height: 600px;
+    width: 100%;
+}
+.text{
+   
+    height: 800px;
+    width: 22%;
+     
+}
+.text p{
+    margin-top: 130px;
+    font-size: 120px;
+    font-family: montserrat-regular,sans-serif;
+    line-height: 1.0;
+}.text h1{
+    margin-top: -100px;
+}
+.text h3{
+    color:grey;
+    margin-top: -10px;
+}
+.inside_box{
+    margin-left: -300px;
+    margin-top: 780px;
+    display: flex;
+    height: 80px;
+    width: 500px;
+}.inside_box img{
+    height: 50px;
+    width: 200px;
+    padding:20px;
+}

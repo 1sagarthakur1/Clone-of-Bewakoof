@@ -1,0 +1,43 @@
+#main{
+    display:flex;
+    /* margin-bottom:10px; */
+    position: absolute;
+}
+.thumbnailO{
+    height:420px;
+    width:50%;
+z-index:100;
+cursor: pointer;
+position: relative;
+}
+.thumbnailO:hover {
+transform: scale(1.1);
+}
+#big_div{
+    height:600px;
+    /* border:3px solid red; */
+}
+body{
+    background-color: rgb(23, 19, 19);
+}
+.thumbnailT{
+    height:420px;
+    width:50%;
+z-index:500;
+cursor: pointer;
+position: relative;
+}
+.thumbnailT:hover {
+transform: scale(1.1);
+}
+#up{
+    height:70px;
+    width:100%;
+    /* padding-bottom:20px; */
+    margin-bottom:20px;
+}
+#khali{
+    height:70px;
+    width:100%;
+    margin-top:40px;
+}

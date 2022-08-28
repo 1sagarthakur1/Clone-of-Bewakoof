@@ -1,0 +1,41 @@
+h1{
+    font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 48px;
+color: black;
+text-align: center;
+margin-top:60px;
+margin-bottom:40px;
+}
+#navbar{
+    margin-top:-60px;
+}
+h3{
+    font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+color: rgba(0,0,0,0.9);
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+line-height: normal;
+/* margin-top:-20px; */
+
+
+}
+#img{
+   height:125px;
+   width:100%;
+   margin-bottom:15px;
+
+
+}
+.main_div{
+    height:auto;
+    width:80%;
+    /* border:3px solid red; */
+    margin:auto;
+    /* margin-top:35px; */
+}
