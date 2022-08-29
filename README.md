@@ -40,31 +40,33 @@ _To start with the Project run the following command in terminal in "backend" fo
 ### _Following are the Screenshots for the reference_
 
 - **Landing Page**
-  ![Landing Page]()
+  (![Landing page](https://user-images.githubusercontent.com/103955083/187130506-899fc3ba-7fec-4ace-8420-53670c7f9c8f.png)
+)
   
 
 - **Product Page**
 
-  ![Landing Page]()
+  
+![mens](https://user-images.githubusercontent.com/103955083/187131499-3e2eec6a-78a6-49f3-adbd-16558b4eed4c.png)
+![women](https://user-images.githubusercontent.com/103955083/187131542-9064c7fe-ac71-473a-a4dd-27c1c02e3c9d.png)
+![mobile](https://user-images.githubusercontent.com/103955083/187131551-dc1bf433-70fe-4a0a-841c-81880d45151d.png)
 
 
 - **Sign-Up Page**
+ - **Sign-In Page**
+![login](https://user-images.githubusercontent.com/103955083/187131568-cdd649a5-ec13-46f7-8887-2fca27d622b3.png)
 
-  ![Landing Page]()
-  
-  
-  - **Sign-In Page**
-
-  ![Landing Page]()
 
 
 - **Cart Page**
+![cart](https://user-images.githubusercontent.com/103955083/187131647-dd7fcc19-4906-4dca-99fb-1c9c4fc9224f.png)
 
-  ![Landing Page]()
+ 
 
 - **Payment Page**
 
-  ![Landing Page]()
+ ![payment](https://user-images.githubusercontent.com/103955083/187131664-ef9ade0c-1bc0-42e8-9817-925140e6d4f2.png)
+
 
 ---
 
